@@ -9,7 +9,7 @@
 [Task-00]|Linux|*Completed*
 [Task-01]|CLI & GIT|*Completed*
 [Task-02]|The Open Source Conventions & Google Dorking|*Completed*
-[Task-03]|Automate the Boring Stuff!|*Not Completed*
+[Task-03]|Automate the Boring Stuff!|Not adequate progress
 [Task-04]|Web Dev Basics|*completed*
 [Task-05]|NOT A SRS DOC|*Completed*
 [Task-06]|WIREFRAME THE SKELETON|*Not Completed*
