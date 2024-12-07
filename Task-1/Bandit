@@ -1,0 +1,137 @@
+Bandit
+
+Level 0 - Bandit0
+Access the readme file.
+Command:
+cat readme
+
+Level 1 - Bandit1
+Retrieve the password for Bandit1.
+Command:
+ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If  
+cat ./-
+
+Level 2 - Bandit2
+Find and read the password for Bandit2.
+Command:
+263JGJPfgU6LtdEvgfWU1XP5yac29mFx  
+cat space /in /from /lines
+
+Level 3 - Bandit3
+List all files, including hidden files.
+Command:
+MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx  
+ls -a
+
+Level 4 - Bandit4
+Review all files.
+Command:
+2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ  
+check all files
+
+Level 5 - Bandit5
+Find a file of size 1033 bytes.
+Command:
+4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw  
+find -size 1033c
+
+Level 6 - Bandit6
+Search for files with specific attributes.
+Command:
+HWasnPhtq9AVKe0dmk45nxy20cvUa6EG  
+find / -type f -user bandit7 -group bandit6 -size 33c  
+
+Level 7 - Bandit7
+Use `grep` to find a specific word.
+Command:
+morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj  
+grep -w millionth data.txt
+
+Level 8 - Bandit8
+Remove duplicate lines.
+Command:
+dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc  
+sort data.txt | uniq -u
+
+Level 9 - Bandit9
+Extract specific strings.
+Command:
+4CKMh1JI91bUIZZPXDqGanal4xvAg0JM  
+strings data.txt | grep =
+
+Level 10 - Bandit10
+Decode base64 encoded data.
+Command:
+FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey  
+base64 -d data.txt
+
+Level 11 - Bandit11
+Perform a character transformation.
+Command:
+dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr  
+cat data.txt | tr [A-M][N-Z][a-m][n-z] [N-Z][A-M][n-z][a-m]
+
+Level 12 - Bandit12
+Work with files in `/tmp/mihir` directory.
+Steps:
+1. Create a new directory in `/tmp`:  
+   mkdir /tmp/mihir
+2. Copy the file from `/home/bandit12`:  
+   cp /home/bandit12/data.txt /tmp/mihir
+3. Convert a hex dump to binary:  
+   xxd -r data.txt > binary
+4. Rename the file:  
+   mv data.txt data
+5. Use `bzip2`, `gzip`, or `tar` to decompress and extract files.
+
+Level 13 - Bandit13
+Access the private key and SSH into Bandit14.
+Command:
+FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn  
+ssh -i sshkey.private bandit14@localhost -p 2220  
+cat /etc/bandit_pass/bandit14
+
+Level 14 - Bandit14
+Connect to a specific port via netcat.
+Command:
+MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS  
+nc localhost 30000
+
+Level 15 - Bandit15
+Connect to the SSL-enabled port.
+Command:
+8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo  
+ncat --ssl localhost 30001
+
+Level 16 - Bandit16
+Scan for open ports and connect via netcat.
+Command:
+kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx  
+nmap -sV localhost -p 31000-32000  
+ncat --ssl localhost 31790
+- Create a new directory and file using the nano editor:  
+   nano sshkey.private
+- Copy the key and repeat the process from Bandit13 to Bandit14.
+
+Level 17 - Bandit17
+Compare two files using `diff`.
+Command:
+EReVavePLFHtFlFsjn3hyzMlvSuSAcRD  
+diff password.new password.old
+
+Level 18 - Bandit18
+SSH into Bandit18 and display the readme.
+Command:
+x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO  
+ssh bandit18@bandit.labs.overthewire.org -p 2220 -t "cat readme"
+
+Level 19 - Bandit19
+Execute the Bandit20-do command to get the password for Bandit20.
+Command:
+cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8  
+./bandit20-do cat /etc/bandit_pass/bandit20
+
+Level 20 - Bandit20
+Retrieve the password for Bandit20.
+Command:
+0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
