@@ -1,6 +1,7 @@
 # Dreamteam-tasks
 ## Self Intro
 
+Hi, I’m Mihir, S3 CSE student. I enjoy playing games but have taken the club work seriously, dedicating the past month to completing the tasks and improving my skills. I am skilled in Python, HTML, CSS, and JavaScript, and during the tasks, I also learned Linux commands, Git basic commands, Next.js, Flask, and much more. I’m excited to collaborate, learn, and contribute to the club.
 
 ## Tasks
 
